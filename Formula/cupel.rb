@@ -1,29 +1,29 @@
-# Rendered for v0.3.0 by dist/homebrew/render.sh in https://github.com/tysont/cupel; edit it there.
+# Rendered for v0.3.1 by dist/homebrew/render.sh in https://github.com/tysont/cupel; edit it there.
 class Cupel < Formula
   desc "Verification suite that grades what a coding agent produced"
   homepage "https://github.com/tysont/cupel"
-  version "0.3.0"
+  version "0.3.1"
   license "BSD-3-Clause"
 
   on_macos do
     on_arm do
-      url "https://github.com/tysont/cupel/releases/download/v0.3.0/cupel-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "415bff09bc887288c154728dcdcc918e57403a2505456c1fd578008f57606a60"
+      url "https://github.com/tysont/cupel/releases/download/v0.3.1/cupel-0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "4ae269614c33e0fa34b684b2f8ee1f0a89de64eb13b66b6ecadb9fcb23831805"
     end
     on_intel do
-      url "https://github.com/tysont/cupel/releases/download/v0.3.0/cupel-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "db373feebf5ca720e62025266be855613da71454556b89947fda522b4bc63fa3"
+      url "https://github.com/tysont/cupel/releases/download/v0.3.1/cupel-0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "9d9d8a3407e355a768c74d82bc141fd370a2f25ec17c756f54ce244f153ae662"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tysont/cupel/releases/download/v0.3.0/cupel-0.3.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "453655494962181d68c385e65c9ce00b42a207f5ff3a9399804f3f61b65b7bee"
+      url "https://github.com/tysont/cupel/releases/download/v0.3.1/cupel-0.3.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d388b482706d0ff7c19db7e198bca3c40c9e380af26ce7928aff8f3292232e5b"
     end
     on_intel do
-      url "https://github.com/tysont/cupel/releases/download/v0.3.0/cupel-0.3.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "acf7818f7f3f4910b88f64cbf04f5a258ebea593603eb34ad98f62a13eb673b0"
+      url "https://github.com/tysont/cupel/releases/download/v0.3.1/cupel-0.3.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2d98980119968fd52c47b72703a731f887b5575d6453ee24a8ab8dbbb4f22623"
     end
   end
 
